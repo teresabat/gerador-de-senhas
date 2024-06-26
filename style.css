@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100hv;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+}
+
+#password-generator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#password-display{
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px rgb(0,0,0,0.1);
+}
+
+#generate-button{
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+#generate-button:hover{
+    background: #003369;
+}
